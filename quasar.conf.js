@@ -42,11 +42,13 @@ module.exports = function (ctx) {
       all: 'auto',
 
       components: [
-        'QLayout',
+        'QList',
+        'QItem',
         'QItemSection',
-        'QItemLabel'
+        'QItemLabel',
+        'QExpansionItem',
+        'QImg'
       ],
-      directives: [],
 
       // Quasar plugins
       plugins: []
